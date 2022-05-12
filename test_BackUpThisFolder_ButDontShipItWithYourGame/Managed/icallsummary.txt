@@ -800,7 +800,6 @@ UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Internal_ToAxisAngleRad_Injected
 UnityEngine.Quaternion::Internal_ToEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
-UnityEngine.Quaternion::Lerp_Injected
 UnityEngine.Quaternion::LookRotation_Injected
 UnityEngine.Quaternion::Slerp_Injected
 UnityEngine.Random::Range
@@ -1254,7 +1253,6 @@ UnityEngine.UISystemProfilerApi::AddMarker
 UnityEngine.UISystemProfilerApi::BeginSample
 UnityEngine.UISystemProfilerApi::EndSample
 UnityEngine.UnityLogWriter::WriteStringToUnityLogImpl
-UnityEngine.Vector3::Slerp_Injected
 UnityEngine.XR.InputDevices::IsDeviceValid
 UnityEngine.XR.InputDevices::SendHapticImpulse
 UnityEngine.XR.InputDevices::TryGetFeatureValue_Quaternionf
@@ -1266,9 +1264,7 @@ UnityEngine.XR.InputDevices::TryGetFeatureValue_float
 UnityEngine.XR.InputDevices::TryGetHapticCapabilities
 UnityEngine.XR.InputTracking::GetDeviceIdAtXRNode
 UnityEngine.XR.InputTracking::GetNodeStates_Internal
-UnityEngine.XR.InputTracking::Recenter
 UnityEngine.XR.Provider.XRStats::TryGetStat_Internal
-UnityEngine.XR.XRDevice::SetTrackingSpaceType
 UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking
 UnityEngine.XR.XRDisplaySubsystem::AddGraphicsThreadMirrorViewBlit
 UnityEngine.XR.XRDisplaySubsystem::GetMirrorViewBlitDesc
