@@ -32548,6 +32548,13 @@ struct SceneRenderPipeline_t22881FE43441F64B12BD3F28AFC0D72604198287  : public M
 	RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* ___renderPipelineAsset_4;
 };
 
+// TeleportObject
+struct TeleportObject_t319CAFBBADC4838BE44C1618022636DB3D7A2936  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Single TeleportObject::lastTeleport
+	float ___lastTeleport_4;
+};
+
 // UnityEngine.SpatialTracking.TrackedPoseDriver
 struct TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -41234,9 +41241,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5654[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5655[2] = 
 {
 	static_cast<int32_t>(offsetof(MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984_StaticFields, ___s_DisplaySubsystemDescriptors_5)),static_cast<int32_t>(offsetof(MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984_StaticFields, ___s_InputSubsystemDescriptors_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5657[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5658[1] = 
+{
+	static_cast<int32_t>(offsetof(TeleportObject_t319CAFBBADC4838BE44C1618022636DB3D7A2936, ___lastTeleport_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5660[5] = 
 {
 	static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kEditorToPlayerRequestDebuggerOutput_15)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kPlayerToEditorSendDebuggerOutput_16)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___cacheSize_17)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___perThreadCacheSize_18)),0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5659[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5662[1] = 
 {
 	0,};
